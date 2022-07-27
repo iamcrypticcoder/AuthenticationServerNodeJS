@@ -8,7 +8,6 @@ This server can be used as your application authentication server.
 ### Sample App Link ###
 
 
-
 ### Technologies Used ###
 
 * TypeScript
@@ -29,27 +28,32 @@ Will be added later
 
 ### Authentication REST APIs ###
 
-1. `/signup`
-2. `/login`
-3. `/login/google`
-4. `/login/facebook`
-5. `/auth/google/callback`
-6. `/auth/facebook/callback`
-7. `/token`
-8. `/confirmEmail`
-9. `/sendResetPasswordEmail`
-10. `/resetPassword`
-11. `/changePassword`
-12. `/activateAccount`
-13. `/deactivateAccount`
-14. `/deleteAccount`
-15. `/profile`
-
-
-16. `/roles`
-17. `/permissions`
-18. `/user/:userId`
-19. `/users`
+1. `POST /signup`
+2. `POST /login`
+3. `POST /login/google`
+4. `POST /login/facebook`
+5. `GET /auth/google/callback`
+6. `GET /auth/facebook/callback`
+7. `POST /token`
+8. `POST /confirmEmail`
+9. `POST /sendResetPasswordEmail`
+10. `POST /resetPassword`
+11. `POST /changePassword`
+12. `POST /activateAccount`
+13. `POST /deactivateAccount`
+14. `POST /deleteAccount`
+15. `GET /profile`  - Deprecated
+16. `GET /roles`
+17. `GET /permissions`
+18. `GET /user/:userId`
+19. `PUT /user/:userId`
+20. `DELETE /user/:userId`
+21. `GET /user/:userId/profilePictures`
+22. `GET /user/:userId/coverPictures`
+23. `GET /user/:userId/loginSessions`
+24. `GET /users`
+25. `POST /uploadRequest`
+26. `POST /uploadSuccess`
 ---
 
 
