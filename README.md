@@ -1,5 +1,7 @@
 # AuthenticationServerNodeJS #
 
+---
+
 An authentication server using NodeJS written in TypeScript.
 
 It provides all necessary REST APIs and server rendered pages for user account authentication and basic user managements.
@@ -7,10 +9,13 @@ This server can be used as your application authentication server.
 
 ### Sample App Link ###
 
+---
+
 Will be added later
 
 ### Technologies Used ###
 
+---
 * TypeScript
 * NodeJS
 * Express
@@ -27,9 +32,13 @@ Will be added later
 
 ### How to deploy ###
 
+---
 Will be added later
 
+
 ### Authentication REST APIs ###
+
+---
 
 1. `POST /signup`
 2. `POST /login`
