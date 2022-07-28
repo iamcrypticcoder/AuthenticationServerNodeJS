@@ -33,7 +33,54 @@ Will be added later
 ### How to deploy ###
 
 ---
-Will be added later
+**Step 1:** Configure environment variables
+
+**Step 2:** Configure Google and Facebook ID and SECRET
+
+**Step 3:** Configure AWS S3, Cloudfront and SES
+
+**Step 4:** Configure MongoDB database
+
+**Step 5:** Run server on local machine
+
+**Step 6:** Run server on remote machine as your choice
+
+
+### ENVIRONMENT VARIABLES LIST ###
+
+---
+
+```
+BASE_URL=http://localhost:3000
+PORT=3000
+
+REST_API_V1_URL=http://localhost:3000/api/v1
+
+MONGODB_URI="mongodb://localhost:27017/authentication_server_node_js"
+
+GOOGLE_CLIENT_ID=""
+GOOGLE_CLIENT_SECRET=""
+GOOGLE_CALLBACK_URL="http://localhost:3000/auth/google/callback"
+GOOGLE_CALLBACK_URL_REST_API="http://localhost:3000/api/v1/auth/google/callback"
+
+FACEBOOK_APP_ID=""
+FACEBOOK_APP_SECRET=""
+FACEBOOK_CALLBACK_URL="http://localhost:3000/auth/facebook/callback"
+FACEBOOK_CALLBACK_URL_REST_API="http://localhost:3000/api/v1/auth/facebook/callback"
+FB_GRAPH_API_ME="https://graph.facebook.com/v14.0/me"
+
+NO_REPLY_EMAIL_ADDRESS="mahbub.kuet@gmail.com"
+
+AWS_DEFAULT_REGION="ap-southeast-1"
+AWS_ACCESS_KEY_ID=""
+AWS_SECRET_ACCESS_KEY=""
+AWS_USER_BUCKET_NAME=""
+AWS_CLOUDFRONT_DOMAIN=""
+AWS_CLOUDFRONT_ACCESS_KEY_ID=""
+AWS_CLOUDFRONT_PRIVATE_KEY="-----BEGIN RSA PRIVATE KEY-----\nMIIEpQIBAAKCAQEAhD5FnLWJIc6SbC6vbii4cKxfXeuKiA5wjoU/eK845Tq9qfDq\nxUH+kJHOA9tt2SWK3IhVjXcV6mKH38tJAHp269EtmSZKE/SmZgVgNEBi1apkN5F2\naKmbtEV9gV3qTDJgXZTDzt62wMKX34ezsvaU6KQoW/9+VN4NTwVRCu/yjw2a4TcG\nvapWIuFjrcB6ggbhA/yU8Bgggfkg48StN8AFAITAYEh2Mqby8oJQJFiprgCAvhiH\nid8tpadksTlnJMKZfF0GyFk7cqnRvy44cA8PqqS/SVbjpLM63CBmmPkEi1Pnjd94\nBamLLBkjntmdI1BqHrWOGQt1RgP8G2eoskpinwIDAQABAoIBAGYjmqyQ4dvEqv73\nh/Oza9FKsVXfKN4xGOpbLEzQOUeDeR4av5mfgTi0BMSh5FQFVR1EB5/9zGV9uKg3\nYKkH7XXx2CAjnK+RFDxUBpwU5sFUm5b3uNbZuTMhQPB8UwyLFDbzQdEz3z8+jQLO\n0xJ0tUqCD9IOocp2vxy7ZH7oGRY3NUBjWQ5vRmLZ0Dw+qh6kyg8RZKIWO5iPrKqL\n9ZDb1OdlJpnFGyIRTbZXLs6vvpnOpCaVCp1gwdJ3CvllPK0V6NFU5nqUmI7Z/haz\nI2Qs+agBkJOdZ8ndB64APWyQ2JQfN1/Ve0dhVP+x3bqrAM+BRoD+6YVrk02sCvxp\naN4GN2ECgYEAwbr3CWfqxETso2FOiu7b86/SHPuI0eX27sW1z1fVqNaHFHeUA9QU\na+n9akuYWDH/ABJOTZV/N8/qajxiuPfieyJPrF+dCqDdyEQcF9ann5v\nxiN9T67jR7KqIit8C1srW7evkuM+bKGY4TbZcAhICy7xqoA4oti2nOkCgYEArr/c\n9OZxAKp1rmo/1aIp4bUXI+7MzDFmf/N4iY1UaBqGWvGtp7CNVFlSu1q0qMn/BlBn\nuxSNw9SUqbI5r3fg/0pwSwqNJ9JHtvKxkRK3NmWdSZPTfVJXJvEjxnIW7Or+F5Av\nRrCjxU2ObWDXPqetkk0X70/3XxQm0YnDgRf7LkcCgYEAggWKoWx2O04LCEhZn5Na\nWf4J5dvH4yAVkAFv2X4Y7x00Qb9TvxIKtravlzSvRZogjBq9JQMOBBZuPOjUVVJF\n5FWfykh/O9ld747O0QZrf3vYfaLxvegb+n59LwqwjcFSwGYw9ao1unPYyZvsnJoE\ncjsOyks0lxTlq0otONZ8EWkCgYEAo8bx4Rzwn70imhq+RQy8z+sXCvhOPLm35Qdc\n2x34E7F4ZlfHdzhC3ODyZuF2HBNkzpgg//cdfoIH6ps88TUbTGiJoer7rGyqBc6j\nmOG/kF3f8gt31SaMw9SQwPZAgj8jcRYTGN+IPeyYJe7zDKe+RzW1zvZVU2jhkNTa\nxGyjXxUCgYEAmu8CVpLuzU/Z3hqRWzHCKRr5eSLbzpWboJeCqWg3GyTkl5IaM8rB\nlQrGuxrPrrrbFYs01iwSNStA1nueV72da2unggNWt6z0RpFfM0jd6eVLZsxbEEcq\nYO237iTzRQOKtxjFRyF0rO+gaeKIORrQCRZT/BWczeWfo/n30OpcBWI=\n-----END RSA PRIVATE KEY-----\n"
+
+IP_LOOKUP_URL ="https://api.iplocation.net/?ip={ipAddress}"
+```
 
 
 ### Authentication REST APIs ###
