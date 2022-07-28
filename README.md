@@ -1,12 +1,13 @@
 # AuthenticationServerNodeJS #
 
-A ready to use authentication server using NodeJS written in TypeScript.
+An authentication server using NodeJS written in TypeScript.
 
 It provides all necessary REST APIs and server rendered pages for user account authentication and basic user managements.
 This server can be used as your application authentication server.
 
 ### Sample App Link ###
 
+Will be added later
 
 ### Technologies Used ###
 
@@ -19,6 +20,8 @@ This server can be used as your application authentication server.
 * Passport JS
 * EJS
 * AWS SES
+* AWS S3
+* AWS CLOUDFRONT
 * Google OAuth2 API
 * Facebook OAuth2 API
 
